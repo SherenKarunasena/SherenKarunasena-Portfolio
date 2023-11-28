@@ -1,0 +1,74 @@
+#body{
+    background-image: linear-gradient(to right,#00008B , #002244);
+}
+
+.logo{
+    margin-left: 4%;
+    color:#ffc40c;
+}
+#color-yellow{
+color: #ffc40c;
+}
+.menu-colour{
+    color: white !important;
+    text-shadow: 0 0 6px black, 0 0 5px #0000FF;
+}
+#navbar-with{
+    height: 60px;
+}
+.manu-item-color-change{
+  color:#ffc40c !important;
+}
+.navbar {
+  --bs-navbar-nav-link-padding-x: 1.5rem !important;
+}
+/*-----------------Nav bar Animation---------------->*/
+#ul li a{
+  display: block;
+  position:relative;
+  text-decoration:none;
+  font-size:18px;
+  font-family: sans-serif;
+  color:#fff;
+  text-transform:uppercase;
+  transition:0.5s;
+}
+
+#ul:hover li a{
+  transform:scale(1.5);
+  opacity:0.2;
+  filter:blur(5px);
+}
+
+#ul li a:hover{
+  transform:scale(2);
+  opacity:1;
+  filter:blur(0);
+  text-decoration:none;
+  color:#fff;
+}
+
+#ul li a:before{
+  content:'';
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:#ffc40c;
+  transition:0.5s;
+  transform-origin:right;
+  transform:scaleX(0);
+  z-index:-1;
+}
+
+#ul li a:hover:before{
+  transition:transform 0.5s;
+  transform-origin:left;
+  transform:scaleX(1);
+}
+.tital{
+  font-size: 50px;
+  text-align: center;
+  color: white;
+}
