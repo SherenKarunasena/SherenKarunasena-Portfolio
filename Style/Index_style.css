@@ -147,3 +147,29 @@
  
 
   /*--------------------------------->*/
+
+  @media screen and (max-width: 600px) {
+    .body2{
+      display:block;
+    }
+    .name{
+      color:white;
+      font-size: 30px;
+    }
+    .description{
+      margin-left: 8%;
+      margin-top: 12%;
+    }
+   .Welcome{
+      font-size: 25px;
+    }
+    .para{
+      color:white;
+    }
+  
+    .image{
+      
+      margin-left: 5%;
+      margin-top: 1%;
+    }
+  }

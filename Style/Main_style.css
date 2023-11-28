@@ -72,3 +72,10 @@ color: #ffc40c;
   text-align: center;
   color: white;
 }
+
+@media screen and (max-width: 600px) {
+  .navbar-toggler{
+    background-color: white !important;
+  }
+ 
+}
