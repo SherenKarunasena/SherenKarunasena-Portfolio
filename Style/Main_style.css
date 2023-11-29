@@ -34,22 +34,24 @@ color: #ffc40c;
   transition:0.5s;
 }
 
-#ul:hover li a{
-  transform:scale(1.5);
-  opacity:0.2;
-  filter:blur(5px);
-}
+  /* #ul:hover li a{
+    transform:scale(1.5);
+    opacity:0.2;
+    filter:blur(5px);
+  } */
 
 #ul li a:hover{
-  transform:scale(2);
+  transform:scale(1.3);
   opacity:1;
   filter:blur(0);
   text-decoration:none;
   color:#fff;
+  
+  
 }
 
 #ul li a:before{
-  content:'';
+  
   position:absolute;
   top:0;
   left:0;

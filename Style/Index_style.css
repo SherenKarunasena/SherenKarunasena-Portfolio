@@ -24,7 +24,7 @@
   background-color: #000000; /* Green */
   border: none;
   color: white;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -87,8 +87,8 @@
     color: #333;
     text-decoration: none;
     
+}
 
-  }
   .wrapper {
     margin-top: 10%;
     text-align: center;
@@ -109,6 +109,7 @@
     pointer-events: none;
     transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     
+    
   }
   
   .wrapper .tooltip::before {
@@ -125,14 +126,16 @@
   }
   .wrapper .icon:hover .tooltip {
     top: -45px;
-    opacity: 1;
+    opacity: 2;
     visibility: visible;
     pointer-events: auto;
+    left: -8px;
     
   }
   .wrapper .icon:hover span,
   .wrapper .icon:hover .tooltip {
     text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+ 
   }
   .wrapper .facebook:hover,
   .wrapper .facebook:hover .tooltip,
@@ -151,7 +154,10 @@
   .wrapper .instagram:hover .tooltip::before {
     background-color: #e1306c;
     color: #ffffff;
+    
   }
+ 
+  
   .wrapper .github:hover,
   .wrapper .github:hover .tooltip,
   .wrapper .github:hover .tooltip::before {
