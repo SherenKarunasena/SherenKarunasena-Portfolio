@@ -77,5 +77,11 @@ color: #ffc40c;
   .navbar-toggler{
     background-color: white !important;
   }
- 
+  .logo{
+    margin-left: 0.1%;
+    color:#ffc40c;
+  }
+  #navbar-with{
+    height: 25px;
+}
 }

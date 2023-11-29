@@ -20,6 +20,8 @@
 .image{
     margin-left: 5%;
     margin-top: 1%;
+    width: 600px;
+
 }
 
 /*--------------------------------->*/
@@ -153,23 +155,73 @@
       display:block;
     }
     .name{
+      margin-top: 5%;
       color:white;
-      font-size: 30px;
+      font-size: 20px;
     }
     .description{
-      margin-left: 8%;
-      margin-top: 12%;
+      text-align: center;
     }
    .Welcome{
+
       font-size: 25px;
     }
     .para{
       color:white;
+      font-size: 10px;
     }
   
     .image{
       
-      margin-left: 5%;
-      margin-top: 1%;
+      width: 350px;
+  
+  }
+
+    .wrapper .icon{
+      position: relative;
+      background-color: #ffffff;
+      border-radius: 50%;
+      margin: 10px;
+      width: 20px;
+      height: 20px;
+      line-height: 20px;
+      font-size: 12px;
+      display: inline-block;
+      align-items: center;
+      box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+      cursor: pointer;
+      transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      color: #333;
+      text-decoration: none;
+    }
+
+    .wrapper { 
+      margin-top: 5%;
+      text-align: center;
+      width: 300px;
+    }
+
+    #image-animation{
+      font-weight: bold;
+      position: relative;
+      animation: mymove-image 5s;
+      animation-fill-mode: forwards;
+      animation-timing-function: ease;
+    }
+    
+    @keyframes mymove-image {
+      from {left:300px ;}
+      to {left: -50px;}
+    }
+    #description-animation {
+      font-weight: bold;
+      position: relative;
+      animation: mymove-description 5s;
+      animation-fill-mode: forwards;
+      animation-timing-function: ease;
+    }
+    @keyframes mymove-description {
+      from {left: -200px;}
+      to {left: -15px;}
     }
   }
