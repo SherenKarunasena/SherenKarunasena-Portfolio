@@ -4,17 +4,34 @@
 }
 .description{
     margin-left: 8%;
-    margin-top: 12%;
+    margin-top: 6%;
 }
 .Welcome{
     font-size: 25px;
 }
 .name{
+    margin-top: 5%;
     color:white;
     font-size: 50px;
 }
 .para{
+    margin-top: 6%;
     color:white;
+}
+
+.CV-Download{
+  margin-top: 8% !important;
+  background-color: #000000; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
 }
 
 .image{
@@ -47,12 +64,13 @@
 
 @keyframes mymove-image {
   from {left:300px ;}
-  to {left: -75px;}
+  to {left: 75px;}
 }
 
 /*---------------------------------*/
 
 .wrapper .icon{
+    
     position: relative;
     background-color: #ffffff;
     border-radius: 50%;
@@ -72,7 +90,7 @@
 
   }
   .wrapper {
-    margin-top: 5%;
+    margin-top: 10%;
     text-align: center;
     width: 375px;
     
