@@ -181,10 +181,10 @@
     .name{
       margin-top: 5%;
       color:white;
-      font-size: 20px;
+      font-size: 30px;
     }
     .description{
-     
+      
       text-align: center;
     }
    .Welcome{
@@ -194,7 +194,7 @@
     .para{
       margin-top: 5%;
       color:white;
-      font-size: 10px;
+      font-size: 15px;
     }
   
     .image{
@@ -224,7 +224,7 @@
     .wrapper { 
       margin-top: 5%;
       text-align: center;
-      width: 300px;
+      width: 370px;
     }
 
     #image-animation{
